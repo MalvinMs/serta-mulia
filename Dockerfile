@@ -15,10 +15,10 @@ COPY . .
 
 # Tetapkan environment variables
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=8080
 
 # Ekspos port 3000
-EXPOSE 3000
+EXPOSE 8080
 
 # Jalankan server pada port 3000
 CMD ["npm", "run", "start"]
