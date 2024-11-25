@@ -21,4 +21,4 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Jalankan server pada port 3000
-CMD ["node", "src/server/server.js"]
+CMD ["npm", "run", "start"]
